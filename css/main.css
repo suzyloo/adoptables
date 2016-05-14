@@ -1,0 +1,125 @@
+body{
+	font-family: 			Helvetica,Arial,sans-serif;
+	background-color: 		#F2FAF0;
+}
+h1 {
+	background-color:		#B4DEC0;
+	padding:				8px 0 5px 40px;
+}
+.headerImage{
+	width:					80%;
+	padding-top:			30px;
+}
+.clear{
+	width:					100%;
+	clear:					both;
+}
+.speciesTextContainer{
+	background-color: 		#E4F5DF;
+	height: 				270px;
+	padding: 				10px;
+	overflow:				auto;
+}
+.customAdoptable{
+	width:					135px;
+	margin-left:			5px;
+	margin-right: 			5px;
+	display: 				inline-block;
+	vertical-align:			middle;
+}
+.customAdoptableText{
+	width: 					140px;
+	margin-left: 			5px;
+	margin-right: 			5px;
+	display: 				inline-block;
+}
+.makeItBlue {
+	background-color:		blue !important	;
+}
+.images{
+	max-height: 			270px;
+	max-width: 				100%;
+}
+.row{
+	margin: 				auto 50px;
+}
+.noAdoptablesText {
+    vertical-align: 		middle;
+}
+.noAdoptablesSad{
+	margin-top: 			25%;
+}
+.bottomRow{
+	height:					100px;
+}
+
+/* Small screen stuff */
+@media screen and (max-width: 480px) {
+	.row{
+		margin: 			-10px 10px;
+	}
+	h1{
+		height: 			30px;
+		font-size:			20px;
+		padding-top:		3px;
+		padding-left:		20px;
+	}
+	.noAdoptablesSad{
+		margin-top:			25%;
+	}
+	.headerImage{
+		width:				95%;
+	}
+}
+@media screen and (max-width: 370px) {
+	.noAdoptablesSad{
+		margin-top:			40%;
+	}
+}
+
+/* SPOOKY GHOST STUFF */
+
+#ghostContainment {
+	width:					100%;
+	height:					250px;
+	padding-top:			20px;
+	margin:					0px auto;
+	
+}
+.bouncer {
+    margin:			0px auto;
+    width: 			250px;
+    height: 			250px;
+}
+#lilGhost{
+	width:			250px;
+	height: 		250px;
+	cursor: 		pointer;
+}
+#lilGhostPoof {
+	display: 		none;
+	width:			250px;
+	height:			250px;
+	
+}
+#lilGhostRules {
+	display: 		none;
+	width: 			250px;
+	height: 		250px;
+}
+.ovalReplacement{
+	display:none;
+	height:			90px;
+	width:			10px;
+	background-color:	blue;
+}
+.oval {
+	width:					80px;
+	height:					20px;
+	background:				rgba(102,102,102,0.3);
+	-moz-border-radius:			100px / 30px;
+	-webkit-border-radius:			100px / 30px;
+	border-radius:				100px / 30px;
+	margin:					35px auto;
+}
+
